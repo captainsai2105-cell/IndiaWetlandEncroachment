@@ -213,12 +213,13 @@ data/raw/*.geojson
 .config/
 
 # Large raw geospatial files (regenerate from GEE as needed)
-data/raw/*.tif
-data/raw/*.zip
-data/raw/*.shp
-data/raw/*.dbf
-data/raw/*.shx
-data/raw/*.prj
+data/raw/**/*.tif
+data/raw/**/*.zip
+data/raw/**/*.shp
+data/raw/**/*.dbf
+data/raw/**/*.shx
+data/raw/**/*.prj
+data/raw/**/*.cpg
 
 # OS files
 .DS_Store

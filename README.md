@@ -14,11 +14,12 @@
    - Outputs a change map and CSV report
 
    ## Data Sources
-   All data used is free and publicly available.
-   - Wetland polygons: github.com/yashveeeeeeer/india-geodata
-   - Satellite imagery: Google Earth Engine (Sentinel-2, Copernicus)
-   - District boundaries: india-geodata GitHub
-
+| Dataset | Source | Format | Use |
+|---|---|---|---|
+| Water body polygons (UP) | India WRIS — DWA Phase 2 | Shapefile | Baseline water body boundaries |
+| District boundaries | India WRIS — District_NWIC | Shapefile | Area of interest definition |
+| Sentinel-2 imagery | Google Earth Engine | Raster | NDWI change detection |
+| ISRO NWIA Atlas | vedas.sac.gov.in | PDF | Reference and validation |
    ## Tech Stack
    Python, Google Earth Engine, geemap, geopandas, QGIS
 
@@ -27,3 +28,14 @@
 
    ## Author
    Prateek Sai | Associate Ecologist | Gurugram, India
+
+
+## Progress Log - 29/03/2026
+
+   ### Phase 1 — Foundation & Setup ✅
+   - Repository created and structured
+   - Python environment configured with all required libraries
+   - GEE Contributor account authenticated
+   - Raw data downloaded and inspected in QGIS
+   - Pilot district: Prayagraj, Uttar Pradesh
+   - Water body data source: Water body polygons (UP) | India WRIS — DWA Phase 2

@@ -1,0 +1,8 @@
+Water bodies source: WRIS DWA Phase 2, UP
+Prayagraj features: 1,624
+Area range: 1.0 ha to 260.45 ha
+Fields include: district, gis_area, wbid, apr20 through apr24 (water presence)
+District boundaries source: WRIS District_NWIC
+District name in boundaries layer: Prayagraj
+CRS of raw shapefiles: WGS 1984 LCC (Lambert Conformal Conic)
+Will be reprojected to EPSG:4326 on export in Sprint 2.1
