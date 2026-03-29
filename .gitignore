@@ -207,4 +207,23 @@ marimo/_lsp/
 __marimo__/
 
 .env
-*.geojson
+data/raw/*.geojson
+
+# GEE credentials
+.config/
+
+# Large raw geospatial files (regenerate from GEE as needed)
+data/raw/*.tif
+data/raw/*.zip
+data/raw/*.shp
+data/raw/*.dbf
+data/raw/*.shx
+data/raw/*.prj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# QGIS lock files
+*.qgs~
+*.qlr
